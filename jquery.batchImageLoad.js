@@ -15,7 +15,7 @@ $.fn.batchImageLoad = function(options) {
 		loadingCompleteCallback: null,
 		imageLoadedCallback: null
 	}
-  var opts = $.extend({}, $.fn.batchImageLoad.defaults, options);
+  	var opts = $.extend({}, $.fn.batchImageLoad.defaults, options);
 
 	// Start
 	images.each(function() {
